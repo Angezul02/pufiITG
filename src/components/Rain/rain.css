@@ -1,0 +1,53 @@
+.containerboxone{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    
+
+}
+
+.imgUmbrella{
+    width:100%;
+    grid-row: 0, 1;
+    height: 450px;
+}
+
+.boxtext1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family:"Poppins", sans-serif; 
+   background-color: rgb(240, 235, 235);
+   
+   
+}
+
+.boxtext1 h3{
+   font-weight: bold;
+   margin: 15px;
+}
+
+.boxtext1 button {
+    border: none;
+    background-color: transparent;
+    letter-spacing: 1mm;
+    margin: 0 auto;
+
+}
+ .arrow{
+    margin-right: 10px;
+ }
+
+.buttonbox{
+    position: relative;
+}
+.boximg1{
+    background-image: url("../../assets/img/sombrillas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

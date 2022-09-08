@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Carousel from './components/Carousel/Carousel';
+import Cart from './components/Cart/Cart';
+import Footer from './components/Footer/Footer';
+import ContactForm from './components/Form/ContactForm';
+import Nap from './components/Nap/Nap';
+import Puff from './components/Puff/Puff';
+// import Navbar from './components/Navbar/Navbar';
+import Rain from "./components/Rain/Rain";
+import Social from './components/Social/Social';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <Carousel/>
+     <Rain/>
+     <Puff/>
+     <Cart/>
+     <Nap/>
+     <Social/>
+     <ContactForm/>
+     <Footer/>
+    </>
   );
 }
 

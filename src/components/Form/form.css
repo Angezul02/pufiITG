@@ -1,0 +1,40 @@
+.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.FormRegister input  {
+    border: none;
+    background-color: transparent;
+}
+
+.FormRegister  button {
+    border: none;
+    background-color: transparent;
+}
+
+input {
+    padding:15px;
+    width:530px ;
+    
+}
+
+input::placeholder{
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+fieldset {
+    border: solid 1px black;
+    margin-bottom: 40px;
+}

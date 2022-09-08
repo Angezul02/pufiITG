@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* padding: 30px; */
+  margin: 20px;
+  /* height: 50px; */
+  font-family: "Poppins", sans-serif;
+  background-color: transparent ;
+  /* z-index: -1; */
+  /* position: fixed; */
+  
+  
+  
+}
+.nameLogo {
+  font-weight: bold;
+  font-size: 25px;
+}
+/* .logoPufi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.nameLogo {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 0px 15px 0px 15px;
+  color: rgb(16, 2, 53);
+  font-weight: bold;
+}
+
+.option1,
+.option2,
+.option3 {
+  border-right: 1px solid black ;
+}
+.linksOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+select {
+  border: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.optionSelect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selecttittle {
+  font-weight: 100;
+  font-size: 12px;
+}

@@ -1,0 +1,44 @@
+.containerboxtwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 450px;
+}
+
+.imgPuff {
+  width: 100%;
+  grid-row: 0, 1;
+  height: 450px;
+}
+
+.boxtext2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.boxtext2 h3 {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.boxtext2 button {
+  border: none;
+  background-color: transparent;
+  letter-spacing: 1mm;
+}
+.arrow {
+  margin-right: 10px;
+}
+
+.boximg2 {
+  background-image: url("../../assets/img/inflableplaya.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
